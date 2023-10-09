@@ -9,10 +9,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.4.0
       - run: npm install
-      - run: npx token-transformer input/design-tokens.json input/base.json base
-      - run: npx token-transformer input/design-tokens.json input/brand-a.json base,brand-a base --expandTypography=true
-      - run: npx token-transformer input/design-tokens.json input/brand-b.json base,brand-b base --expandTypography=true
-      - run: node build.js
+      - run: npx token-transformer data/tokens.json input/core.json core
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: build tokens
