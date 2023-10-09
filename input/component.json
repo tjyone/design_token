@@ -2,12 +2,14 @@
   "button": {
     "bg": {
       "primary": {
-        "value": "#4299e1",
-        "type": "color"
+        "value": "{colors.blue.500}",
+        "type": "color",
+        "failedToResolve": true
       },
       "secondary": {
-        "value": "#edf2f7",
-        "type": "color"
+        "value": "{colors.gray.200}",
+        "type": "color",
+        "failedToResolve": true
       }
     }
   }
