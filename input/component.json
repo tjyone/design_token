@@ -1,0 +1,11 @@
+{
+  "button": {
+    "background": {
+      "primary": {
+        "value": "{background.primary}",
+        "type": "color",
+        "failedToResolve": true
+      }
+    }
+  }
+}
