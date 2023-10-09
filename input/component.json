@@ -5,6 +5,11 @@
         "value": "{background.primary}",
         "type": "color",
         "failedToResolve": true
+      },
+      "secondary": {
+        "value": "{background.secondary}",
+        "type": "color",
+        "failedToResolve": true
       }
     }
   }
