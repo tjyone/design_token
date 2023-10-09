@@ -1,14 +1,12 @@
 {
   "background": {
     "primary": {
-      "value": "{colors.blue.500}",
-      "type": "color",
-      "failedToResolve": true
+      "value": "#4299e1",
+      "type": "color"
     },
     "secondary": {
-      "value": "{colors.gray.200}",
-      "type": "color",
-      "failedToResolve": true
+      "value": "#edf2f7",
+      "type": "color"
     }
   }
 }
