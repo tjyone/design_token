@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "style-dictionary": "^3.7.1"
+    "style-dictionary": "^3.8.0",
+    "token-transformer": "^0.0.33"
   }
 }
