@@ -10,6 +10,7 @@ jobs:
         uses: actions/setup-node@v2.4.0
       - run: npm install
       - run: npx token-transformer data/tokens.json input/core.json core
+      - run: npx token-transformer data/tokens.json input/Lego-a.json core,Lego-a core
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: build tokens...
