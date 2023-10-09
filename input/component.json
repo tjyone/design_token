@@ -2,12 +2,12 @@
   "button": {
     "bg": {
       "primary": {
-        "value": "{background.primary}",
+        "value": "{colors.blue.500}",
         "type": "color",
         "failedToResolve": true
       },
       "secondary": {
-        "value": "{background.secondary}",
+        "value": "{colors.gray.200}",
         "type": "color",
         "failedToResolve": true
       }
