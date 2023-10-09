@@ -1,6 +1,6 @@
 {
   "button": {
-    "background": {
+    "bg": {
       "primary": {
         "value": "{background.primary}",
         "type": "color",
