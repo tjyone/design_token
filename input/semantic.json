@@ -11,6 +11,14 @@
     "tertiary": {
       "value": "#2a4365",
       "type": "color"
+    },
+    "test": {
+      "value": "#2b6cb0",
+      "type": "color"
+    },
+    "test2": {
+      "value": "#f7fafc",
+      "type": "color"
     }
   }
 }
